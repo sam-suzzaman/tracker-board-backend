@@ -32,7 +32,10 @@ exports.getAllTaskHandler = async (req, res, next) => {
             const searchQuery = req.query.search;
             filters.$or = [
                 {
-                    title: {
+                    // title: {
+                    //     $regex: new RegExp(".*" + searchQuery + ".*", "i"),
+                    // },
+                    status: {
                         $regex: new RegExp(".*" + searchQuery + ".*", "i"),
                     },
                 },
