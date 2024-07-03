@@ -23,7 +23,7 @@ It is a backend API of a task management application. Here some api endpoints ar
 -   `GET /tasks`: Retrieve a list of tasks.
 -   `GET /tasks/:id`: Retrieve a specific task by ID.
 -   `POST /tasks`: Create a new task.
--   `PUT /tasks/:id`: Update an existing task by ID.
+-   `PATCH /tasks/:id`: Update an existing task by ID.
 -   `DELETE /tasks/:id`: Delete a task by ID.
 
 ### Used Technologies:
