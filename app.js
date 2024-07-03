@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 // Connecting routes
-app.use("/api/v1/task", taskRouter);
+app.use("/tasks", taskRouter);
 
 app.get("/", (req, res) => {
     res.send("<h1>Server is running</h1>");
